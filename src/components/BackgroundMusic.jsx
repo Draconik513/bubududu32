@@ -1,29 +1,18 @@
 import { useState, useEffect, useRef } from "react";
+import laguUltah from "../assets/audio/laguultah.mp3"; // sesuaikan path jika perlu
 
 const BackgroundMusic = () => {
   const [isMusicPlaying, setIsMusicPlaying] = useState(true);
-  const iframeRef = useRef(null);
+  const audioRef = useRef(null);
 
   useEffect(() => {
-    const iframe = iframeRef.current;
-    if (!iframe) return;
-
-    const sendCommand = (func, args = []) => {
-      iframe.contentWindow?.postMessage(
-        JSON.stringify({
-          event: "command",
-          func,
-          args,
-        }),
-        "*"
-      );
-    };
+    const audio = audioRef.current;
+    if (!audio) return;
 
     if (isMusicPlaying) {
-      sendCommand("unMute");
-      sendCommand("playVideo");
+      audio.play().catch(() => {});
     } else {
-      sendCommand("mute");
+      audio.pause();
     }
   }, [isMusicPlaying]);
 
@@ -33,29 +22,15 @@ const BackgroundMusic = () => {
 
   return (
     <>
-      {/* Iframe kecil tersembunyi */}
-      <div
-        style={{
-          position: "absolute",
-          top: "-100px",
-          left: "-100px",
-          width: "1px",
-          height: "1px",
-          overflow: "hidden",
-        }}
-      >
-        <iframe
-          ref={iframeRef}
-          width="1"
-          height="1"
-          src="https://www.youtube.com/embed/3IGs5oWPlHY?autoplay=1&loop=1&playlist=3IGs5oWPlHY&enablejsapi=1&mute=0"
-          title="Background Music"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-        ></iframe>
-      </div>
+      {/* Audio Tersembunyi */}
+      <audio
+        ref={audioRef}
+        src={laguUltah}
+        loop
+        autoPlay
+      />
 
-      {/* Tombol kontrol */}
+      {/* Tombol Kontrol */}
       <div className="fixed bottom-20 right-4 z-50">
         <div className="bg-white/90 backdrop-blur-sm rounded-full p-2 shadow-lg flex items-center border border-pink-200">
           <button
