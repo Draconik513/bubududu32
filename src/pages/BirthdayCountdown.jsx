@@ -108,7 +108,7 @@ const BirthdayCountdown = ({ isIOS }) => {
 
         <div className="bg-white p-6 rounded-xl shadow-lg mb-8 border border-pink-100">
           <h3 className="text-xl font-semibold text-purple-600 mb-2">
-            📅 26 Februari 2026
+            📅 7 maret 2026
           </h3>
           <p className="text-pink-600">
             Tanggal perempuan indah yang mas kagumi lahir🤍
