@@ -6,17 +6,29 @@ const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-hiii cantikk, hari ini adalah hari yang kmu paling nanti’kan bukann? sebelumnya selamat bertambah usia yaa cantikkuu!! aku selalu berdoa agar kamu selalu dalam lindungan allah, diberi kesehatan dan lancar selalu rezekinya.
+tengilll, todayy its your birthday!!!! 🤩
 
-aku tahu hidup tidak selalu mudah, tapi aku ingin kamu tahu bahwa kamu tidak sendiri. aku akan selalu mendukungmu, menyemangati kamu, dan menjadi tempat kamu bersandar saat kamu lelah.
+aku sebenernya bingung mau bilang apa, soalnya aku ga pinter berkata kata juga 😭 tapi yang pasti semoga kamu panjang umur, sehat terus, dilancarin rezekinya dan semua urusannya, dan dikasih kebahagiaan yang ga ada habisnya 🤍
 
-semoga setiap langkahmu penuh keberkahan, dan setiap impianmu satu per satu menjadi kenyataan. kamu punya hati yang tulus, senyum yang menenangkan, dan jiwa yang cantik luar dalam. dunia butuh lebih banyak orang sepertimu.
+aduh aku gengsi sih sebenernya, tapi makasih ya tengil… makasih udah nemenin aku beberapa waktu terakhir ini. walaupun aku belum kenal kamu sejauh itu, tapi aku seneng banget bisa kenal kamu, dan aku juga nyaman sama kamu.
 
-aku ingin kamu tahu bahwa aku percaya padamu sepenuhnya. kamu kuat, kamu hebat, dan kamu pantas mendapatkan yang terbaik. jangan pernah ragukan dirimu sendiri, karena kamu adalah cahaya dalam hidup banyak orang, termasuk hidupku.
+WALAUPUN kamu nyebelin, ngeselin, dan bikin darah aku naik tiap hari ☺️
 
-jika suatu hari kamu merasa ragu atau takut, ingatlah doaku ini: semoga kamu selalu dikelilingi orang-orang baik, rezeki yang cukup, dan cinta yang tulus dari semua arah. termasuk dariku.
+tapi jujur ya… aku seneng kamu ada.
 
-I Lovee uu moree cantikkk!!
+aku harap di umur kamu sekarang, kamu bisa dapet hal hal baik yang mungkin dulu belum sempet kamu rasain.
+
+pokoknya apapun yang kamu harapin, semoga cepet terkabul ya. aku bantu aminin dari sini 
+
+aku tau aku juga ga selalu bisa kasih solusi buat kamu, tapi aku selalu ada buat dengerin kamu, mau kamu ngeluh 10000x juga gapapa. jadi kalo ada apa apa, cari aku aja ya… jangan ke jandaa HEHE
+
+semoga kamu selalu punya tempat buat pulang, walaupun lagi capek atau lagi ga baik baik aja.
+
+udah ah, pokoknya semoga kamu selalu dikelilingi orang orang baik.
+
+dan TOLONGGGG di umur barunya… jangan makin nyebelin ya 😠 harus dikurangin nyebelin, ngeselin, dan tengilnya!!
+
+hari ini harus seneng ya, aku tunggu kamu di bandung tengill
 
   `;
 
@@ -87,7 +99,7 @@ I Lovee uu moree cantikkk!!
               >
                 <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  umy rahmawati 💖
+                  tengil 💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
                   My Heart Belongs to you, Honey🥹
