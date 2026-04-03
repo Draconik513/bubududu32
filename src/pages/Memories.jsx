@@ -30,44 +30,38 @@ const Memories = ({ isIOS }) => {
           className="bg-white bg-opacity-90 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-8 border border-pink-100"
         >
           <h2 className="text-2xl font-semibold text-rose-600 mb-4">
-            permintaan maaf aku khusus birthday kamu
+            Permintaan Maafku di Hari Ulang Tahunmu
           </h2>
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
             <p>
-              💌 <strong>Maaff yaa sayang...</strong>
+              💌 <strong>Maaf ya, Sayang...</strong>
             </p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              Maaf kalau selama ini aku selalu ngeselin, overthinking, marah
-              marah ga jelas ,masih suka nangis, posesif. Semua itu karena aku
-              takut kehilanganmu gemoyy aku manusia biasa yang masih belajar
-              mencintaimu dengan lebih baik
+              Maaf kalau selama ini aku pernah cuek 😞, terlalu sibuk 😔, atau
+              kurang peka sama perasaanmu 😢. Maaf kalau kadang aku bikin kamu
+              kecewa, salah paham, atau merasa sendiri 😓. Aku gak pernah
+              berniat nyakitin kamu 🥺. Semua itu karena aku manusia biasa yang
+              masih belajar mencintaimu dengan lebih baik 🤍.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.6 }}
+              transition={{ duration: 1, delay: 1.2 }}
             >
-              Minta maaf juga ada beberapa permintaan mu yang belum aku penuhi,
-              aku akan usahakan secepatnyaa yaa sayang, kita sama sama berjuang
-              Dan semoga hubungan yang berawal dari virtual ini bisa segera ke
-              jenjang pernikahan biar aku milikin kamu seutuhnya Terima kasih
-              sudah tetap disini bertahan walau tau bagaimana kondisiku saat ini
-              jangan pernah lelah yaa jalan bareng sama aku, aku akan belajar
-              lebih baik lagi.. Untuk kamu🩷
+              Terima kasih sudah sabar, sudah tetap di sini 🫶. Aku akan terus
+              belajar jadi lebih baik lagi... untuk kamu 💗
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.6 }}
+              transition={{ duration: 1, delay: 1.8 }}
             >
-              Maaf yaa sayang dan terima kasih karena kamu tetep percaya sama
-              aku. Sementara fotonyaa AI dulu next kita foto yang banyakk yaa
-              gemoyyyy I love youu aku sayang samamu
+              🙏🏻 Maaf ya, dan makasih karena kamu tetap percaya sama aku.
             </motion.p>
           </div>
         </motion.div>
