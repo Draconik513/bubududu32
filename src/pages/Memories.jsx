@@ -35,17 +35,39 @@ const Memories = ({ isIOS }) => {
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
             <p>
-              💌 <strong>Maaff yaa tengil</strong>
+              💌 <strong>Maaff yaa sayang...</strong>
             </p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              maaf kalo aku suka marah marah kalo kamu lagi cape, maaf kalo aku
-              suka ngeselin suka bikin kamu emosi, maaf kalo aku masih kurang
-              bisa ngertiin kamu, maaf kalo aku suka cerewet banyak ngomong dan
-              bikin kamu pusing.
+              Maaf kalau selama ini aku selalu ngeselin, overthinking, marah
+              marah ga jelas ,masih suka nangis, posesif. Semua itu karena aku
+              takut kehilanganmu gemoyy aku manusia biasa yang masih belajar
+              mencintaimu dengan lebih baik
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.6 }}
+            >
+              Minta maaf juga ada beberapa permintaan mu yang belum aku penuhi,
+              aku akan usahakan secepatnyaa yaa sayang, kita sama sama berjuang
+              Dan semoga hubungan yang berawal dari virtual ini bisa segera ke
+              jenjang pernikahan biar aku milikin kamu seutuhnya Terima kasih
+              sudah tetap disini bertahan walau tau bagaimana kondisiku saat ini
+              jangan pernah lelah yaa jalan bareng sama aku, aku akan belajar
+              lebih baik lagi.. Untuk kamu🩷
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.6 }}
+            >
+              Maaf yaa sayang dan terima kasih karena kamu tetep percaya sama
+              aku. Sementara fotonyaa AI dulu next kita foto yang banyakk yaa
+              gemoyyyy I love youu aku sayang samamu
             </motion.p>
           </div>
         </motion.div>
