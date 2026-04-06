@@ -266,7 +266,7 @@ const CakeCelebration = () => {
         </h1>
         
         <p className="text-xl text-pink-200 mb-12">
-          Make a wish and blow the candle 🎂 (use your voice!)
+          buat harapanmu dan tiup lilinnya 🎂 (gunakan suaramu!)
         </p>
 
         <div className="relative mx-auto w-[120px] h-[160px] mb-16">
