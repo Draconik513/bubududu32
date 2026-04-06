@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import laguUltah from "../assets/audio/laguultah.mp3"; // sesuaikan path jika perlu
+import laguUltah from "../assets/audio/laguultah1.mp3"; // sesuaikan path jika perlu
 
 const BackgroundMusic = () => {
   const [isMusicPlaying, setIsMusicPlaying] = useState(true);
