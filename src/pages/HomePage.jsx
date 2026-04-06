@@ -65,7 +65,7 @@ const HomePage = ({ isIOS }) => {
           <div className="mt-8 p-4 bg-white/80 backdrop-blur-sm rounded-lg max-w-md mx-auto border border-pink-200">
             <p className="text-pink-800 italic">
               "Untuk pacarku yang tercinta, dihari spesialmu ini aku ingin
-              mengucapkan.. Terimakasih telah hadi di hidupku. Bareng terus ya
+              mengucapkan.. Terimakasih telah hadir di hidupku. Bareng terus ya
               sayangg"
             </p>
             <p className="mt-4 text-right text-pink-600 font-medium">-khoerul fakih</p>
