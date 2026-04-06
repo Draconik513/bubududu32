@@ -6,17 +6,29 @@ const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-Sayangku 💖, hari ini adalah momen yang paling indah karena hari ini kamu lahir ke dunia 🎉. Aku ingin berdoa agar kamu selalu dalam lindungan Tuhan 🙏, diberi kesehatan 💪, kekuatan 🛡️, dan kebahagiaan yang tiada akhir 🌈✨.
+Selamat ulang tahun🎂
+Sayangkuu cintakuuu😗🩷
 
-Aku tahu hidup tidak selalu mudah 🌧️, tapi aku ingin kamu tahu bahwa kamu tidak sendiri 🤝. Aku akan selalu mendukungmu 💞, menyemangati kamu 💫, dan menjadi pundakmu saat kamu lelah 😔➡️💆‍♀️.
+Semoga dengan bertambahnya usia,kamu selalu menjadi pribadi yang lebih baik lagi dari hari ini . semoga kamu selalu diberi kesehatan baik fisik ataupun mental , dan juga dilancarkan rezekinya , dipermudah segala urusanya juga dikuatkan setiap rasa lelahmu , 
 
-Semoga setiap langkahmu penuh keberkahan 🕌, dan setiap impianmu satu per satu menjadi kenyataan 🌠. Kamu punya hati yang tulus 💓, senyum yang menenangkan 😊, dan jiwa yang cantik luar dalam 🌹. Dunia butuh lebih banyak orang sepertimu 🌍❤️.
+Terimakasih sudah hadir di hidup aku , terimakasih atas cinta,perhatian dan kesabaran yang kamu kasih , terimakasih sudah menjadi sosok yang tetap sama dari awal sampai sekarang yang selalu berusaha bertahan , aku mau minta maaf belum bisa jadi apa yang kamu mau, belum bisa bahagiain kamu hehe, maafin yaa udah sering ovt sering cemburu ga jelas, sering nuduh ini dan itu , eat lest itu aku sayang sama kamu hehe..
+Aku gamau kita pisah . aku berharap kamu cukup sama aku ,walaupun aku banyak kurangnya , maaf banget aku se-egois ini ke kamu , aku gamau kamu sama yang lain hehe, semua kebahagiaan kita sedang aku usahakan , jadi minta do’anya ya sayang hehe .
+Ingat  sejauh apapun jarak dan sesibuk apapun keadaan, aku selalu ada disini bareng kamu , mendukung setiap langkah dan usahamu . 
 
-Aku ingin kamu tahu bahwa aku percaya padamu sepenuhnya 🙌. Kamu kuat 💥, kamu hebat 🦋, dan kamu pantas mendapatkan yang terbaik 🏆. Jangan pernah ragukan dirimu sendiri 🙅‍♀️, karena kamu adalah cahaya dalam hidup banyak orang 🌟, termasuk hidupku 💘.
+Tetap jaga diri dan jaga sikap yaa disana, dan juga jaga kepercayaan yang kita punya .
 
-Jika suatu hari kamu merasa ragu atau takut 😟, ingatlah doaku ini: Semoga kamu selalu dikelilingi orang-orang baik 👨‍👩‍👧‍👦, rezeki yang cukup 💰, dan cinta yang tulus dari semua arah 💗. Termasuk dariku 🫶.
+Aku minta tolong , seretak apapun hubungan kitaa , tolong jangan sampai pergi yaa , perbaiki semua kesalahan kita masing2 yaa , aku minta tolong banget soal itu ya hehe .
+aku gamau lagi ada sosok orang ke-3 lagi, cukup yang lalu itu terakhir yaa sayang ,
+aku sayang sama kamuu🥹🩷 
 
-Aku cinta kamu ❤️, dan akan selalu mencintaimu 💍.
+kadang malah aku mikir gini , apa aku yang ga pantas ya buat kamu hehe  ,  sekarang posisi ku lagi dibawah2nya  dan kamu sudah sukses disana🥹 , diluaran sana banyak yang lebih dari aku , 
+maaf aku belum bisa ngasih kamu hadiah apapun hehe 
+
+Sekali lagi selamat ulang tahun yaa duniakuu
+🫶🏼 
+Panjang umur dan sehat selalu yaa cintakuu🩷
+
+お誕生日 おめでとう🩷
 
   `;
 
@@ -87,7 +99,7 @@ Aku cinta kamu ❤️, dan akan selalu mencintaimu 💍.
               >
                 <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Aprillia Krisnawati 💖
+                  Kesayangan aku 💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
                   My Heart Belongs to you, Honey🥹

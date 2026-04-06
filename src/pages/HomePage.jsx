@@ -19,9 +19,9 @@ const HomePage = ({ isIOS }) => {
           transition={{ delay: 0.5 }}
           className="mb-8"
         >
-          <p className="text-lg text-pink-600 pt-4">Untuk yang tersayang</p>
+          <p className="text-lg text-pink-600 pt-4">Untuk yang tercinta</p>
           <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-600 via-pink-400 to-purple-500 text-transparent bg-clip-text drop-shadow-md">
-            Aprillia Krisnawati
+            Kesayangan aku
           </h1>
         </motion.div>
 
@@ -64,11 +64,11 @@ const HomePage = ({ isIOS }) => {
 
           <div className="mt-8 p-4 bg-white/80 backdrop-blur-sm rounded-lg max-w-md mx-auto border border-pink-200">
             <p className="text-pink-800 italic">
-              "Untuk pacarku yang tercinta, di hari spesialmu ini aku ingin mengucapkan terima kasih telah bersamaku sampai saat ini. Setiap detik bersamamu adalah anugerah" 
+              "Untuk pacarku yang tercinta, dihari spesialmu ini aku ingin
+              mengucapkan.. Terimakasih telah hadi di hidupku. Bareng terus ya
+              sayangg"
             </p>
-            <p className="mt-4 text-right text-pink-600 font-medium">
-              -Firman
-            </p>
+            <p className="mt-4 text-right text-pink-600 font-medium">-khoerul fakih</p>
           </div>
         </motion.div>
 
